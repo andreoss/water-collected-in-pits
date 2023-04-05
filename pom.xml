@@ -83,8 +83,8 @@
         <configuration>
           <compilerArgs>--enable-preview
           </compilerArgs>
-          <source>19</source>
-          <target>19</target>
+          <source>20</source>
+          <target>20</target>
         </configuration>
       </plugin>
     </plugins>
