@@ -16,9 +16,9 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
-      - name: JDK 19
+      - name: JDK 20
         uses: actions/setup-java@v1
         with:
-          java-version: 19
+          java-version: 20
       - name: Test
         run: mvn clean test
